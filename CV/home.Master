@@ -10,16 +10,18 @@
     </asp:ContentPlaceHolder>
   </head>
     <body style="padding-top:190px;">
-      <nav class=" navbar  navbar-dark bg-primary fixed-top ">
-            <a href="css/navarro.pdf" class=" btn btn-primary btn-lg active; rounded-pill" role="button" 
+      
+      <nav class= "navbar navbar-dark bg-primary fixed-top ">
+            <a href="css/navarro.pdf" class="px-md-5 btn btn-primary btn-lg active; rounded-pill" role="button" 
                 aria-pressed="true">Abrir C.V. en PDF
               </a>
-                <a href="http://linkedin.com/in/pablojaviernavarro2215" class="btn-primary btn-lg active; rounded-pill; dd     
+                <a href="http://linkedin.com/in/pablojaviernavarro2215" class="px-md-1 btn-primary btn-lg active; rounded-pill; dd     
                     " role="button" aria-pressed="true">LinkedIn
                 </a>
              <h1 class="">Curriculum Vitae Pablo Navarro</h1>
            <img src="css/pn.jpg" class="" alt="...">          
         </nav>
+            
    <form id="form1" runat="server">
         <div>
              <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">

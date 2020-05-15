@@ -39,17 +39,20 @@
       <div class="card-body">
         <h5 class="card-title">T R A B A J O S</h5>
              <div class="alert alert-dark" role="alert">
-                <a href="https://www.indec.gob.ar" class="alert-link">INDEC.</a>
+                <a href="https://www.indec.gob.ar" class="alert-link btn btn-outline-dark btn-lg active; 
+                       rounded-pill; dd  btn-lg active; rounded-pill; dd  ">INDEC.</a>
                    <p class="card-text; m-2">Tarea: Develop Junior</p>
                    <p class="card-text; m-2">Periodo de 2020 - actualidad</p>
               </div>
               <div class="alert alert-danger" role="alert">
-                  <a href="https://www.exolgan.com" class="alert-link">Exolgan.</a> 
+                  <a href="https://www.exolgan.com" class="alert-link btn btn-outline-dark btn-lg active; 
+                       rounded-pill; dd  btn-lg active; rounded-pill; dd   ">Exolgan.</a> 
                      <p class="card-text; m-2">Tarea: Micro Informática Semi Senior.</p> 
                      <p class="card-text; m-2">Periodo de 2019 - 2020.</p>
                </div> 
                <div class="alert alert-primary" role="alert">
-                   <a href="http://www.abccall.com.ar" class="alert-link">American Broad Call.</a>
+                   <a href="http://www.abccall.com.ar" class="alert-link btn btn-outline-dark btn-lg active; 
+                       rounded-pill; dd  btn-lg active; rounded-pill; dd  ">American Broad Call.</a>
                       <p class="card-text ; m-2">Tarea: Soporte técnico informático.</p>
                       <p class="card-text; m-2">Periodo de 2013 - 2019</p>
                </div>
