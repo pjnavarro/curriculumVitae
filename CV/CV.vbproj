@@ -101,6 +101,7 @@
     <Content Include="css\laboral.png" />
     <Content Include="css\datos.jpg" />
     <Content Include="css\estudios.jpg" />
+    <Content Include="css\pn.JPG" />
     <Content Include="index.aspx" />
     <Content Include="js\bootstrap.bundle.js" />
     <Content Include="js\bootstrap.bundle.min.js" />

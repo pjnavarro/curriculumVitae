@@ -3,8 +3,8 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-   <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <br />
+   
+<div class="row align-items-center">
   <div class="row row-cols-1 row-cols-md-3">
    <div class="col mb-4">
      <div class="card">
@@ -56,8 +56,6 @@
              </div>
             </div>
          </div>
-    <br />
-       <br /> 
-          <br />
-                <script src ="js/bootstrap.min.js"></script>
+      </div>
+  </div>
 </asp:Content>

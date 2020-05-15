@@ -5,24 +5,21 @@
  <head runat="server">
    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
      <title>Curriculum Vitae</title>
-       <link rel="stylesheet" href="css/bootstrap.min.css" />
-         <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary navbar-left">
-            <a href="css/navarro.pdf" class="btn btn-primary btn-lg active; rounded-pill" role="button"
-                aria-pressed="true">Abrir C.V. en PDF
-             </a>
-                <h1 class=" m-lg-auto">Curriculum Vitae Pablo Navarro</h1>
-            <a href="http://linkedin.com/in/pablojaviernavarro2215" class="btn btn-primary btn-lg active;
-                  rounded-pill" role="button" aria-pressed="true">LinkedIn
-            </a>
-           
-        </nav>
+       <link rel="stylesheet" href="css/bootstrap.min.css"/>
     <asp:ContentPlaceHolder ID="head" runat="server"> 
     </asp:ContentPlaceHolder>
   </head>
-         <br />
-         <br />
-         <br />
-<body>
+    <body style="padding-top:190px;">
+      <nav class="navbar  navbar-dark bg-primary  fixed-top ">
+            <a href="css/navarro.pdf" class="btn btn-primary btn-lg active; rounded-pill" role="button"
+                aria-pressed="true">Abrir C.V. en PDF
+              </a>
+                <a href="http://linkedin.com/in/pablojaviernavarro2215" class="btn btn-primary btn-lg active;
+                  rounded-pill" role="button" aria-pressed="true">LinkedIn
+                </a>
+             <h1 class="justify-content-right">Curriculum Vitae Pablo Navarro</h1>
+           <img src="css/pn.jpg" class="justify-content-right" alt="...">          
+        </nav>
    <form id="form1" runat="server">
         <div>
              <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
@@ -32,7 +29,7 @@
          <br />
          <div>   
              <div class="fixed-bottom; bg-primary">
-                    <h2 class=" text-center">Programación V</h2>
+                <h2 class=" text-center">Programación V</h2>
               </div>
         </div>
 </body>
